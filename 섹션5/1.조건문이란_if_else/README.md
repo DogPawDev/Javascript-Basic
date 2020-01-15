@@ -9,6 +9,7 @@ Conditional Steatement
 참이 아니라면 {} 중괄호 내용은 무시하고 진행 된다.
 
 example) if
+```
 //ex 1)
 if(true){
     alert('result : true');
@@ -36,7 +37,7 @@ if(false){
     alert(4);
 }
 alert(5);
- 
+ ```
 중간에 alert이 여러 번 호출 되는 상황이 오는데 자바스크립트 번역기가 사용자가 경고창을 닫을 때 까지 기다렸다가 다음 구문을 실행 한다.
 
 ![p1](/img/s5_1_1.png)

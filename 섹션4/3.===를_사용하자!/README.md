@@ -1,6 +1,7 @@
 
 섹션4 비교
 ===를 사용하자!
+```
 alert(null === undefined); //false
 alert(true == 1); //true
 alert(true === 1); //false
@@ -9,7 +10,7 @@ alert(true === '1'); //false
 alert(0 === -0); //true
 alert(NaN === NaN); //false
 alert(null == undefined); //true
-
+```
 
 null 은 값이 없다라는 의미. 
 undefined는 값이 정의되질 않았다는 의미. 
@@ -20,11 +21,13 @@ undefined는 프로그래머와 의도가 없다.
 === 연산자로 바라보면 값이 없는 것과 아예 정의가 안돼 있는 것은 다르다고 판단한다.
 
 자바스크립트는 	
+```
 boolean
 number
 string
 undefined
-null 
+null
+``` 
 이런 자료형이 있다.
 == 연산자는 true 를 1과 동일하게 본다. false는 1이 아닌 모든 것들을 다 거짓으로 판단 한다.
 number, string 둘다 1 , ‘1’ 을 참으로 확인함.
