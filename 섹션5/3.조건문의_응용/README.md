@@ -5,6 +5,7 @@ prompt는 사용자로부터 입력을 받는 메서드다.
 반환 값은 무조건 문자열이다. 값이 없다면 Null 값을 반환한다.
 
 ex 1)
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -44,3 +45,4 @@ ex 2)
 </body>
 </html>
 
+```
