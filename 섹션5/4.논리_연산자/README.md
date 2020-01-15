@@ -11,6 +11,7 @@ OR 연산자 ||  더하기와 같다.
 Boolean의 값을 역전 시킨다.
 
 ex 1) &&
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,6 +29,7 @@ ex 1) &&
     </script>
 </body>
 </html>
+```
 ex 2) || 를 이용한 예제 개선
 id = prompt('아이디를 입력해주세요.');
 password = prompt('비밀번호를 입력해주세요.');
